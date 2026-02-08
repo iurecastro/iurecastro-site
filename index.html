@@ -176,7 +176,7 @@
     
     <!-- Header/Navigation -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
-        <nav class="container mx-auto px-4 py-3">
+        <nav  role="navigation" class="container mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
                 <div class="flex items-center space-x-3">
                     <div class="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg">
@@ -202,14 +202,14 @@
                     <a href="https://linkedin.com/in/iurecastro/" aria-label="Acessar meu perfil no Linkedin" target="_blank" rel="noopener" class="text-gray-400 hover:text-blue-600 transition-colors">
                         <i class="fab fa-linkedin text-2xl"></i>
                     </a>
-                    <button class="md:hidden text-gray-600 p-2 hover:bg-gray-100 rounded-lg">
+                    <button aria-label="Abrir menu de navegação" class="md:hidden text-gray-600 p-2 hover:bg-gray-100 rounded-lg">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main role="main">
     <!-- Hero Section -->
     <section class="relative bg-white overflow-hidden pt-16 pb-24 md:pt-28 md:pb-32">
     <div class="absolute top-0 right-0 -z-10 w-1/2 h-full opacity-10 pointer-events-none">
@@ -543,7 +543,7 @@
     </section>
     </main>
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12 border-t border-gray-800">
+    <footer role="contentinfo" class="bg-gray-900 text-white py-12 border-t border-gray-800">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 
