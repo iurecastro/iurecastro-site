@@ -1,7 +1,20 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
+# Iurecastro.com.br Robots.txt
 User-agent: *
 Allow: /
+Disallow: /private/
+Disallow: /tmp/
+
+# Bloquear bots de IA que apenas consomem banda sem gerar tráfego real
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+
+# Otimização específica para o Google
+User-agent: Googlebot
+Allow: /
+# Garante acesso aos assets para análise de Core Web Vitals (Performance)
+Allow: /assets/css/
+Allow: /assets/js/
 
 Sitemap: https://iurecastro.com.br/sitemap.xml
