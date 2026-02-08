@@ -4,16 +4,17 @@ Allow: /
 Disallow: /private/
 Disallow: /tmp/
 
-# Bloquear bots de IA que apenas consomem banda sem gerar tráfego real
+# Bloquear bots de IA que consomem banda (Já resolve o que você queria)
 User-agent: GPTBot
 Disallow: /
 User-agent: CCBot
+Disallow: /
+User-agent: AnthropicTurbo
 Disallow: /
 
 # Otimização específica para o Google
 User-agent: Googlebot
 Allow: /
-# Garante acesso aos assets para análise de Core Web Vitals (Performance)
 Allow: /assets/css/
 Allow: /assets/js/
 
